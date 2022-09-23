@@ -39,7 +39,11 @@ const experience = document.getElementsByClassName("experience");
 for (let x = 0; x < experience.length; x++) {
     const item = experience[x];
     item.addEventListener("mouseenter", function (event) {
-        event.target.style = "background-color:#808080;"
+        event.target.style = "background-color:#808080; color: white;"
+    })
+
+    item.addEventListener("mouseleave", function (event) {
+        event.target.style = "";
     })
 
 }

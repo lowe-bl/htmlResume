@@ -1,11 +1,18 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(252, 245, 246);
 }
 
+span, h2  {
+    color: rgb(192, 109, 123);
+}
+
+
 main {
-    background-color: rgb(215, 214, 214); 
-    padding:4px; color: #202020;
+    background-color: rgb(82, 77, 77); 
+    padding:4px; 
     grid-area: main; 
+    color: white;
 
 }
 
@@ -13,8 +20,8 @@ aside {
     grid-area: aside;
 }
 
-h1, h2 {
-    color: darkblue;
+h1{
+    color: rgb(82, 77, 77); 
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
@@ -64,7 +71,7 @@ footer {
 }
 
 #menu li.active {
-    background-color: darkslateblue;
+    background-color: rgb(82, 77, 77);
 }
 
 #menu {
